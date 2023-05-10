@@ -46,6 +46,7 @@ for (int i = 0; i < array.Length; i++)
         j++;
     }
 }
-Console.WriteLine();
+void RES(string[] newArray){Console.WriteLine();
 Console.WriteLine("Result:");
-PrintArray(newArray);
+PrintArray(newArray);}
+RES(newArray);
